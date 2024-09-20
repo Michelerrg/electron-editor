@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./assets/images/libro-matita-white.png" id="iconBook" alt="freeoffice"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <button id="backButton" class="btn bg-black" type="button" title="Back"><img src="./assets/icons/undo.png" alt="save" id="iconUndo"></button>
+              </li>
+              <li class="nav-item">
+                <button id="saveButton" class="btn bg-black" type="button" title="Save"><img src="./assets/icons/save.png" alt="save" id="iconSave"></button>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="mt-5 mb-5">
+        <hr/>
+    </div>
+
+    <div class="container">
+        <textarea class="form-control" id="editor" placeholder="Write here..."></textarea>
+    </div>
+    
+    <footer class="text-center pt-3 pb-3">
+      <small>Developed by ME</small>
+    </footer>
+    
+    <script type="text/javascript" href="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" href="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/script.js"></script>
+</body>
+</html>

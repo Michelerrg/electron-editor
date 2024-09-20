@@ -1,0 +1,1 @@
+Questo è il mio primo editor di testo in Electron e JavaScript puro.
